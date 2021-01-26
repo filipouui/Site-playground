@@ -1,0 +1,581 @@
+body,
+html {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+/* Hero sekcija */
+
+.arrow .btn1 {
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  height: 70px;
+  width: 70px;
+  border-radius: 100%;
+  font-size: 50px;
+  padding-bottom: 10px;
+  z-index: 1000;
+}
+
+.arrow .btn1:hover {
+  background-color: white;
+  color: rgb(218, 39, 39);
+}
+
+.plava-pozadina {
+  background-color: rgb(43, 40, 66);
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  opacity: 0.7;
+  z-index: 500;
+}
+
+.intro {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.intro img {
+  height: 100vh;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  z-index: 1000;
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+.navbar img {
+  height: 30px;
+  width: 150px;
+  background-size: cover;
+}
+
+.nav-link {
+  color: white;
+  font-size: small;
+}
+
+.nav-link:hover {
+  border-bottom: 2px solid red;
+  color: white;
+}
+
+.btn1 {
+  border: rgb(218, 39, 39) 2px solid;
+  background-color: rgb(218, 39, 39);
+  color: white;
+  border-radius: 20px;
+  width: 120px;
+  margin-left: 20px;
+}
+
+.intro .btn1 {
+  height: 40px;
+  font-weight: bold;
+}
+
+.btn1:hover {
+  background-color: white;
+  color: rgb(218, 39, 39);
+  font-weight: bold;
+  border: 3px solid rgb(218, 39, 39);
+}
+
+.btn1:focus {
+  outline: none;
+}
+
+.btn2:hover {
+  color: white;
+  cursor: pointer;
+  border: 4px solid red;
+}
+
+.crveni-span {
+  color: rgb(218, 39, 39);
+}
+
+.intro-text {
+  position: absolute;
+  top: 35vh;
+  left: 35vw;
+  z-index: 1000;
+  color: white;
+  font-weight: bold;
+}
+
+.btn2 {
+  border: 3px solid rgb(218, 39, 39);
+  background-color: none;
+  border-radius: 30px;
+  color: white;
+  height: 50px;
+  width: 150px;
+  font-weight: bold;
+}
+
+.intro-text p {
+  font-weight: bold;
+}
+
+/*Sekcija dva sa 3 kolone teksta*/
+
+.pozadina2 {
+  background-color: rgb(43, 40, 66);
+  height: 220px;
+  width: 100%;
+  z-index: 100;
+}
+
+.slika1 img {
+  height: 100px;
+  width: 100%;
+  background-size: cover;
+}
+
+.sekcija2 {
+  height: 220px;
+  width: 100%;
+  position: relative;
+}
+
+.sekcija2 img {
+  background-size: cover;
+  height: 220px;
+  width: 100vw;
+  position: absolute;
+  top: 0;
+  z-index: 50;
+  opacity: 0.3;
+}
+
+.sekcija2container {
+  position: absolute;
+  top: 20px;
+  left: 150px;
+  color: white;
+  z-index: 1000;
+}
+
+.sekcija2container h1 {
+  font-size: 1.3rem;
+}
+
+.sekcija2container p {
+  font-size: 0.9rem;
+}
+
+/*Izvodjaci sekcija*/
+
+.spanSpeakers {
+  border-bottom: 4px red solid;
+  color: white;
+}
+
+.izvodjac {
+  position: relative;
+}
+
+.izvodjac img {
+  height: 250px;
+  width: 320px;
+}
+
+.pozadina3 {
+  background-color: rgb(4, 4, 19);
+  height: 75px;
+  width: 320px;
+  opacity: 0.6;
+  position: absolute;
+  bottom: 0;
+}
+
+.izvodjac h4 {
+  position: absolute;
+  bottom: 35px;
+  left: 30px;
+  color: white;
+  z-index: 100;
+}
+
+.izvodjac p {
+  position: absolute;
+  bottom: 0px;
+  left: 35px;
+  color: white;
+  z-index: 100;
+}
+
+/*Event schedule sekcija*/
+
+.sekcija3 {
+  background-color: rgb(232, 232, 240);
+  height: fit-content;
+}
+
+.sekcija3 span {
+  color: rgb(232, 232, 240);
+}
+
+.sekcija3 .nav-link {
+  color: white;
+  background-color: rgb(6, 6, 99);
+  border-radius: 20px;
+  width: 150px;
+  text-align: center;
+}
+
+.sekcija3 .nav-link:hover {
+  border: none;
+}
+
+.schedule-tabla {
+  padding-top: 10vh;
+  padding-left: 20vw;
+  padding-right: 20vw;
+}
+
+.obim-slike img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50px;
+}
+
+.lista-span span {
+  color: rgb(113, 113, 206);
+  font-size: 0.9rem;
+}
+
+.lista-span p:last-child {
+  color: rgb(33, 33, 155);
+}
+
+.schedule-lista {
+  border-bottom: 1px solid rgb(194, 189, 189);
+}
+
+/*Event venue sekcija*/
+
+.sekcija4 {
+  height: 700px;
+  width: fit-content;
+  padding: 0px;
+}
+
+.venue-slika-wide img {
+  height: 250px;
+  width: 100%;
+  position: relative;
+}
+
+.venue-slika-wide img:hover {
+  opacity: 0.5;
+}
+
+.venue-slika-wide {
+  padding: 0;
+}
+
+.avenue-text {
+  position: absolute;
+  top: 40px;
+  left: 40px;
+  right: 40px;
+  color: white;
+  z-index: 100;
+}
+
+.avenue-pozadina {
+  height: 250px;
+  width: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  background-color: rgb(43, 40, 66);
+  opacity: 0.7;
+  z-index: 5;
+}
+
+.avenue-slika {
+  padding-left: 0px;
+  padding-top: 4px;
+  padding-right: 5px;
+}
+
+.avenue-slika img {
+  height: 250px;
+  width: 100%;
+}
+
+.avenue-slika img:hover {
+  opacity: 0.5;
+}
+
+/*Hotels sekcija*/
+
+.sekcija5 {
+  margin-top: 200px;
+  background-color: rgb(232, 232, 240);
+  padding-top: 40px;
+}
+
+.sekcija5 span {
+  color: rgb(232, 232, 240);
+}
+
+.sekcija5-hotel {
+  background-color: rgb(232, 232, 240);
+  padding-top: 50px;
+  padding-bottom: 100px;
+}
+
+.hotel-card {
+  height: 450px;
+  width: 350px;
+}
+
+/*Gallery sekcija*/
+
+.galerija img {
+  height: 120px;
+  width: 190px;
+  background-repeat: repeat;
+}
+
+.galerija img:hover {
+  border: 4px solid red;
+  transform: scale(1.5, 1.5);
+}
+
+/*Sponsors sekcija*/
+
+.supporter-sekcija img {
+  background-color: white;
+  height: 120px;
+  width: 220px;
+  padding: 25px;
+  border: 1px solid rgb(172, 172, 172);
+}
+
+.supporter-sekcija {
+  padding-top: 120px;
+  padding-bottom: 120px;
+}
+
+/*F.A.Q. lista sekcija*/
+
+.faq-lista {
+  border-bottom: 1px solid rgb(207, 205, 205);
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.faq-lista img {
+  height: 20px;
+  padding-left: 10rem;
+}
+
+/*Footer sekcija*/
+
+.futer {
+  height: fit-content;
+  background-color: rgb(19, 19, 26);
+  color: white;
+}
+
+.futer img {
+  height: 50px;
+}
+
+.futer h3 {
+  border-bottom: 2px solid rgb(228, 35, 35);
+  margin-bottom: 50px;
+}
+
+.futer li {
+  border-bottom: solid 1px rgb(110, 110, 110);
+  margin-top: 15px;
+  list-style-type: none;
+  padding-bottom: 10px;
+}
+
+.futer2 {
+  height: fit-content;
+  background-color: rgb(23, 21, 31);
+  color: white;
+}
+
+.ikonice img {
+  background-color: rgb(91, 80, 133);
+  height: 40px;
+  border-radius: 50%;
+  padding: 5px;
+  margin-left: 10px;
+}
+
+/*Go back button*/
+
+.go-back span {
+  padding-bottom: 10px;
+}
+
+/*Newsletter sekcija*/
+
+.newsletter {
+  position: relative;
+  height: 50vh;
+}
+
+.newsletter .go-back {
+  position: absolute;
+  top: 25px;
+  left: 45px;
+  height: 70px;
+  width: 70px;
+  font-size: 50px;
+  padding: 0px;
+  border-radius: 100%;
+}
+
+.newsletter img {
+  height: 50vh;
+  width: 100vw;
+  opacity: 0.9;
+}
+
+.newsletter-pozadina {
+  height: fit-content;
+}
+
+.newsletter-pozadina {
+  height: 50vh;
+  background-color: rgb(8, 8, 68);
+  position: absolute;
+  top: 0;
+  width: 100vw;
+  opacity: 0.7;
+}
+
+.newsletter-div {
+  position: absolute;
+  top: 50%;
+  color: white;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.newsletter-div h1 {
+  font-size: 3.5rem;
+}
+
+.newsletter-div p {
+  font-size: 1.5em;
+}
+
+.newsletter-div .spanSpeakers {
+  color: rgba(240, 248, 255, 0);
+}
+
+.newsletter-input {
+  width: 500px;
+  height: 50px;
+  border-radius: 50px;
+  border: none;
+}
+
+.newsletter-div .btn1 {
+  border-radius: 50px;
+  font-size: 1.2rem;
+  width: 150px;
+}
+
+/*Buy tickets sekcija*/
+
+.access-card {
+  border: 1px solid white;
+  box-shadow: rgb(184, 184, 184) 10px 5px 20px 5px;
+  height: 500px;
+  width: 350px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 25px;
+  transition: 0.5s;
+}
+
+.access-card:hover {
+  transform: translateY(90px);
+  border-radius: 35px;
+}
+
+.access-card h1 {
+  font-size: 3.5rem;
+  color: rgb(8, 9, 105);
+  border-bottom: 2px solid rgb(206, 201, 194);
+}
+
+.access-card p {
+  color: rgb(206, 201, 194);
+}
+
+.access-card ul {
+  border-bottom: 2px solid rgb(206, 201, 194);
+}
+
+.access-card li {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+}
+
+.access-card .gray-text {
+  color: rgb(206, 201, 194);
+}
+
+.access-card .btn1 {
+  font-size: 1.2rem;
+  padding: 5px;
+  border-radius: 20px;
+  width: 160px;
+}
+
+.access-card .checkmark {
+  color: black;
+}
+
+/*Contact us sekcija*/
+
+.contact-us-border {
+  border-right: 2px solid rgb(148, 148, 148);
+  border-left: 2px solid rgb(148, 147, 147);
+  width: 600px;
+}
+
+.contact-us span {
+  color: blue;
+}
+
+/*Form sekcija*/
+
+.form-section .btn1 {
+  width: 200px;
+  height: 50px;
+  border-radius: 50px;
+  font-size: 1.2rem;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 992px) {
+}
