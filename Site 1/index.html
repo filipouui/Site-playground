@@ -23,74 +23,76 @@
   <!-- Button na kraju stranice-->
 
   <div class="arrow">
-    <a href="#intro" class="d-flex justify-content-center align-items-center btn1 text-decoration-none">
+    <a href="#navbar" class="d-flex justify-content-center align-items-center btn1 text-decoration-none">
       <span>&#8593;</span>
     </a>
   </div>
     
+  <!-- Navbar -->  
 
 
+  <nav class="navbar navbar-expand-lg navbar-light bg-light" id="navbar">
+    <img src="./img/logo.png" class="pr-5" alt="">
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse pl-5" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#izvodjaci">Speakers</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#schedule">Schedule</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#venue">Venue</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#hotels">Hotels</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#gallery">Gallery</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#sponsors">Sponsors</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact</a>
+        </li>
+        <li>
+            <a href="./buyTickets.html"><button class="btn1">Buy tickets</button></a>
+          </li>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 
 
   <!-- Hero pocetna stranica sa navbarom-om -->  
+  
+  <div class="intro">
+    <img src="./img/intro-bg.jpg" class="img-fluid" alt="">
+    <div class="plava-pozadina"></div>
+    
+    <div class="intro-text d-flex flex-column align-items-center">
+      <h1>THE ANNUAL</h1>
+      <h1><span class="crveni-span">MARKETING</span> CONFERENCE</h1>
+      <p>10-12 December, Downtown Conference Centar, New York</p>
+      <a class="btn2 d-flex align-items-center justify-content-center text-decoration-none">About The Event</a>
+    </div>        
+  </div>
+  
 
-    <div >
-      <div class="intro" id="intro">
-        <img src="./img/intro-bg.jpg" alt="">
-        <div class="plava-pozadina"></div>
+      
 
-          <nav class="navbar navbar-expand-lg mt-4">
-            <div class="container">           
-              <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarSupportedContent">
-                <div>
-                  <img src="./img/logo.png" alt="" >
-                </div>
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0 d-flex align-items-center">
-                  <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#about">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#izvodjaci">Speakers</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#schedule">Schedule</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#venue">Venue</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#hotels">Hotels</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#gallery">Gallery</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#sponsors">Sponsors</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#footer">Contact</a>
-                  </li>
-                  <li>
-                    <a href="./buyTickets.html"><button class="btn1">Buy tickets</button></a>
-                  </li>                              
-                </ul>
-              </div>
-            </div> 
-          </nav>
-
-
-          <div class="intro-text d-flex flex-column align-items-center">
-            <h1>THE ANNUAL</h1>
-            <h1><span class="crveni-span">MARKETING</span> CONFERENCE</h1>
-            <p>10-12 December, Downtown Conference Centar, New York</p>
-            <a class="btn2 d-flex align-items-center justify-content-center text-decoration-none">About The Event</a>
-          </div>
-      </div>
-    </div>
 
     
 
@@ -98,34 +100,39 @@
 
     <!-- Sekcija dva sa 3 kolone teksta -->  
 
-    <div class="sekcija2">
 
-      <div class="pozadina2"></div>
-      <img src="./img/about-bg.jpg" alt="">
+      <div class="sekcija2">
 
-      <div class="container sekcija2container">  
-        <div class="row">
-          
-          <div class="col-4">
+        <div class="pozadina2"></div>
+        <img src="./img/about-bg.jpg" alt="">
   
-            <h2>About The event</h2>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam incidunt nobis quae ab vel excepturi cum beatae sint illo, non recusandae optio pariatur itaque laborum sunt sit temporibus minus ipsam tenetur, veniam ullam iste tempore dolor voluptatum? Molestias!</p>
-  
-          </div>
-  
-          <div class="col-4 d-flex  flex-column align-items-center">
-            <h2>Where</h2>
-            <p>Downtown Conference Center, New York</p>
-          </div>
-  
-          <div class="col-4 align-items-end">
-            <h2>When</h2>
-            <p>Monday to Wednesday</p>
-            <p>10-12 December</p>
+        <div class="container sekcija2container">  
+          <div class="row">
+            
+            <div class="col-4">
+    
+              <h2>About The event</h2>
+              <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nam incidunt nobis quae ab vel excepturi cum beatae sint illo, non recusandae optio pariatur itaque laborum sunt sit temporibus minus ipsam tenetur, veniam ullam iste tempore dolor voluptatum? Molestias!</p>
+    
+            </div>
+    
+            <div class="col-4 d-flex  flex-column align-items-center">
+              <h2>Where</h2>
+              <p>Downtown Conference Center, New York</p>
+            </div>
+    
+            <div class="col-4 align-items-end">
+              <h2>When</h2>
+              <p>Monday to Wednesday</p>
+              <p>10-12 December</p>
+            </div>
+
+            
           </div>
         </div>
       </div>
-    </div>
+
+    
 
 
 
@@ -533,17 +540,22 @@
       </div>
 
 
+    <div class="container d-flex  justify-content-center align-items-center">
       <div class="galerija d-flex justify-content-center mt-5 mb-5">
-        <img src="./img/gallery/1.jpg" alt="">
-        <img src="./img/gallery/2.jpg" alt="">
-        <img src="./img/gallery/3.jpg" alt="">
-        <img src="./img/gallery/4.jpg" alt="">
-        <img src="./img/gallery/5.jpg" alt="">
-        <img src="./img/gallery/6.jpg" alt="">
-        <img src="./img/gallery/7.jpg" alt="">
-        <img src="./img/gallery/8.jpg" alt="">
+          <img src="./img/gallery/1.jpg" alt="">
+          <img src="./img/gallery/2.jpg" alt="">
+          <img src="./img/gallery/3.jpg" alt="">
+          <img src="./img/gallery/4.jpg" alt="">
+          <img src="./img/gallery/5.jpg" alt="">
+          <img src="./img/gallery/6.jpg" alt="">
+          <img src="./img/gallery/7.jpg" alt="">
+          <img src="./img/gallery/8.jpg" alt="">
 
+
+        </div>
       </div>
+    </div>
+      
 
 
 
